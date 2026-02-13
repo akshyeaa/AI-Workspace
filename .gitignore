@@ -1,0 +1,69 @@
+############################
+# OS / Editor junk
+############################
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+############################
+# Environment files
+############################
+.env
+.env.*
+*.env
+
+############################
+# Node / Next.js frontend
+############################
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.vercel/
+
+# logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+############################
+# Python / FastAPI backend
+############################
+backend/__pycache__/
+backend/*.py[cod]
+backend/*.pyo
+backend/*.pyd
+
+# virtual environments
+backend/venv/
+backend/.venv/
+backend/env/
+
+# python build
+backend/build/
+backend/dist/
+backend/*.egg-info/
+
+############################
+# LangChain cache / temp
+############################
+backend/.langchain/
+backend/.cache/
+
+############################
+# Database files (optional)
+############################
+*.db
+*.sqlite3
+
+############################
+# Logs
+############################
+*.log
+
+############################
+# Misc
+############################
+*.swp
+*.tmp

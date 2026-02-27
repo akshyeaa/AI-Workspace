@@ -1,0 +1,32 @@
+# git
+.git
+.gitignore
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.env/
+
+# node
+node_modules/
+.next/
+npm-debug.log
+
+# system junk
+.DS_Store
+Thumbs.db
+
+# docker
+docker-compose.yml
+
+# IDE
+.vscode/
+.idea/
+
+# models/cache
+.cache/
+huggingface/

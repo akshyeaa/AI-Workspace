@@ -6,9 +6,6 @@ services:
     build: ./backend
     ports:
       - "8000:8000"
-    volumes:
-      - ./backend:/app
-    restart: always
 
   frontend:
     build: ./frontend
@@ -16,4 +13,3 @@ services:
       - "3000:3000"
     depends_on:
       - backend
-    restart: always

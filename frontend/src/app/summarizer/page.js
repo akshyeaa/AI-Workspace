@@ -214,7 +214,7 @@ export default function Summarizer() {
       if (url) form.append("url", url);
       if (file) form.append("file", file);
 
-      const res = await fetch("http://localhost:8000/summarize", {
+      const res = await fetch("https://ai-workspace-sa89.onrender.com/summarize", {
         method: "POST",
         body: form
       });

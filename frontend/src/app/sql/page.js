@@ -64,7 +64,7 @@ export default function SQLTool() {
               database: mysqlDB
             };
 
-      const res = await fetch("http://localhost:8000/sql/chat", {
+      const res = await fetch("https://ai-workspace-sa89.onrender.com/sql/chat", {
 
         method: "POST",
         headers: { "Content-Type": "application/json" },

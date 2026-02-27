@@ -102,7 +102,7 @@ export default function ChatPage() {
 
     try {
 
-      const res = await fetch("http://localhost:8000/chat/message", {
+      const res = await fetch("https://ai-workspace-sa89.onrender.com/chat/message", {
 
         method: "POST",
         headers: { "Content-Type": "application/json" },

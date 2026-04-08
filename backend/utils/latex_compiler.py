@@ -36,6 +36,10 @@ import shutil
 
 def compile_latex(tex_string: str, diagram_paths=None):
 
+    # If pdflatex is not installed, skip PDF generation.
+    if shutil.which("pdflatex") is None:
+        return None
+
     with tempfile.TemporaryDirectory() as tmpdir:
 
         tex_file = os.path.join(tmpdir, "paper.tex")
